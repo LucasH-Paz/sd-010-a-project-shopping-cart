@@ -1,22 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
-  </head>
+<html lang="pt-br">
 
-  <body>
-    <section class="container">
-      <section class="items"></section>
-      <section class="cart">
-        <span class="cart__title">Carrinho de compras</span>
-        <button class="empty-cart">Esvaziar carrinho</button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div id="head">
+  <img src="https://image.freepik.com/vetores-gratis/logotipo-gradiente-da-sacola-de-compras_93835-1474.jpg" id="logo">
+  <h1>Seu parceiro na hora de comprar !</h1>
+</div>
+  <section class="container">
+    <div id="toCenter">
+      <img src="https://i.stack.imgur.com/AfStP.gif" class="loading">
+    </div>
+    <section class="items"></section>
+    <section class="cart">
+      <span class="cart__title">Carrinho de compras</span>
+      <button class="empty-cart">Esvaziar carrinho</button>
+      <div id="aside">
         <ol class="cart__items"></ol>
-      </section>
+        <p class="preco">Preço total: R$</p>
+        <p class="total-price preco">Nada no carrinho ainda</p>
+      </div>
     </section>
-  </body>
+  </section>
+</body>
+
 </html>
